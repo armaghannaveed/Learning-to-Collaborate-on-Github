@@ -35,6 +35,7 @@ if __name__ == '__main__':
         if action not in "ABOS" or len(action) != 1:
             print("I don't know how to do that")
             continue
+
         if action == 'A':
             my_car.accelerate()
         elif action == 'B':
