@@ -44,4 +44,5 @@ if __name__ == '__main__':
         elif action == 'S':
             print("The car's average speed was {} kph".format(my_car.average_speed()))
         my_car.step()
+
         my_car.say_state()
